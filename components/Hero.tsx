@@ -22,15 +22,14 @@ export default function Hero() {
           className=""
         >
           <span className="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary text-[10px] md:text-xs font-bold tracking-wider uppercase mb-2  mt-8">
-            Psicanálise On-line
+            Psicologia • Psicanálise • Nutrição
           </span>
           <h1 className="text-4xl md:text-7xl font-serif font-bold leading-[1.1] text-text-main mb-6">
-            Um espaço para <span className="text-primary italic">se escutar</span>.
+            Cuidando de você em sua <span className="text-primary italic">totalidade</span>.
           </h1>
           <p className="text-base md:text-xl text-text-muted mb-8 max-w-lg leading-relaxed">
-            Atendimento psicanalítico on-line, com acolhimento, ética e sigilo.
-            Um lugar seguro para falar do que dói, compreender o que se repete e
-            encontrar novos caminhos para a sua vida.
+            Um espaço de escuta, acolhimento e cuidado, com profissionais de
+            Psicologia e Nutrição, respeitando a singularidade de cada pessoa.
           </p>
 
           <a
@@ -42,7 +41,7 @@ export default function Hero() {
             {" "}
             <span className="flex-1 font-bold text-base md:text-center">
               {" "}
-              AGENDAR MINHA SESSÃO{" "}
+              AGENDAR ATENDIMENTO{" "}
             </span>{" "}
             <div className="md:w-10 md:h-10 h-8 w-8 bg-white rounded-full flex items-center justify-center text-primary group-hover:rotate-45 transition-transform duration-300">
               {" "}
@@ -52,8 +51,8 @@ export default function Hero() {
 
           <div className="mt-8 flex items-center gap-4">
             <p className="text-sm text-text-muted font-medium">
-              <span className="font-bold text-text-main">100% on-line</span>{" "}
-              — atendimento para todo o Brasil e exterior
+              <span className="font-bold text-text-main">Para todas as idades</span>{" "}
+              — crianças, adolescentes, adultos e famílias
             </p>
           </div>
         </motion.div>
@@ -65,8 +64,8 @@ export default function Hero() {
           className="relative mt-auto md:mt-0 md:scale-90 md:origin-center"
         >
           <Image
-            src="/ele.png"
-            alt="Valter Lima, psicanalista"
+            src="/ela.png"
+            alt="Profissional da Clínica Harmonize"
             width={600}
             height={700}
             className="w-full h-auto object-cover"
@@ -82,13 +81,13 @@ export default function Hero() {
           >
             <div className="absolute inset-0 bg-white/40 backdrop-blur-sm rounded-full -z-10 scale-90" />
             <CircularText
-              text="Valter Lima Psicanalista • "
+              text="Clínica Harmonize • "
               radius={70}
               fontSize="12px"
               className="drop-shadow-lg"
             />
             <div className="absolute w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white shadow-lg overflow-hidden">
-              <span className="text-xl font-serif font-bold italic">VL</span>
+              <span className="text-xl font-serif font-bold italic">CH</span>
             </div>
           </motion.div>
 
@@ -116,17 +115,17 @@ export default function Hero() {
             </div>
             <div>
               <p className="text-xs text-text-muted uppercase font-bold tracking-wider">
-                Atendimento
+                Cuidado integral
               </p>
               <p className="text-sm font-bold text-text-main">
-                Ético e sigiloso
+                Corpo, mente e emoções
               </p>
             </div>
           </motion.div>
         </motion.div>
       </div>
       <div className="absolute bottom-0 left-0 w-full z-20">
-        <Marquee text="VALTER LIMA PSICANALISTA" />
+        <Marquee text="CLÍNICA HARMONIZE" />
       </div>
     </section>
   );

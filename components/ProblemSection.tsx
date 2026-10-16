@@ -7,20 +7,20 @@ import { WHATSAPP_URL } from "@/lib/whatsapp";
 
 const signs = [
   {
-    title: "Repetição de padrões",
-    text: "Sensação de estar vivendo sempre os mesmos conflitos em relacionamentos, no trabalho ou na vida pessoal;",
+    title: "Emoções em desequilíbrio",
+    text: "Ansiedade, tristeza, irritação ou a sensação de estar sobrecarregado, sem saber por onde começar;",
   },
   {
-    title: "Sintomas emocionais e somáticos",
-    text: "Ansiedade constante, vazio existencial, tristeza profunda ou dores do corpo que a medicina não explica totalmente;",
+    title: "Conflitos que se repetem",
+    text: "Dificuldades nos relacionamentos, na família, no trabalho ou na escola que parecem não ter fim;",
   },
   {
-    title: "Momentos de transição",
-    text: "Dificuldade em lidar com lutos, separações, mudanças de carreira ou novas fases da vida;",
+    title: "Relação difícil com a comida e o corpo",
+    text: "Hábitos alimentares que não fazem bem, oscilações de peso ou desconforto com o próprio corpo;",
   },
   {
-    title: "Busca por autoconhecimento",
-    text: "Desejo de compreender melhor suas emoções, limites e escolhas inconscientes.",
+    title: "Fases e transições",
+    text: "Lutos, separações, mudanças, a chegada da adolescência ou novos desafios na vida da família.",
   },
 ];
 
@@ -45,7 +45,7 @@ export default function ProblemSection() {
                   <div className="absolute inset-0 bg-primary/10 group-hover:bg-primary/5 transition-colors duration-500" />
                   <div className="absolute inset-x-0 bottom-0 p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 bg-gradient-to-t from-primary/20 to-transparent">
                     <span className="text-[10px] text-primary/60 font-medium uppercase tracking-widest">
-                      Sofrimento psíquico
+                      Um olhar singular
                     </span>
                   </div>
                   <Image
@@ -107,15 +107,15 @@ export default function ProblemSection() {
           </div>
 
           {/* Content - Right Side */}
-          <div id="analise" className="flex-1 max-w-xl scroll-mt-28">
+          <div id="cuidado" className="flex-1 max-w-xl scroll-mt-28">
             <motion.h2
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               className="text-4xl md:text-5xl font-serif font-bold text-text-main leading-[1.15] mb-6"
             >
-              Quando procurar a{" "}
-              <span className="text-primary italic">análise?</span>
+              Cada pessoa carrega uma história que merece um{" "}
+              <span className="text-primary italic">olhar singular.</span>
             </motion.h2>
 
             <motion.p
@@ -125,7 +125,7 @@ export default function ProblemSection() {
               transition={{ delay: 0.05 }}
               className="text-lg text-text-muted leading-relaxed mb-6"
             >
-              Se você tem vivenciado situações como:
+              Talvez você, ou alguém da sua família, esteja vivendo algo assim:
             </motion.p>
 
             <ul className="space-y-5 text-lg text-text-muted leading-relaxed mb-10">
@@ -156,12 +156,11 @@ export default function ProblemSection() {
               transition={{ delay: 0.5 }}
               className="text-xl font-bold text-text-main"
             >
-              O trabalho psicanalítico atua na{" "}
+              Na Clínica Harmonize, unimos Psicologia e Nutrição para{" "}
               <span className="text-primary italic">
-                causa raiz do sofrimento psíquico
+                compreender suas dificuldades e acolher suas demandas
               </span>
-              , proporcionando maior autonomia emocional, clareza e alívio para
-              que você viva de forma mais autêntica.
+              , construindo caminhos para uma vida mais saudável e equilibrada.
             </motion.p>
             <a
               href={WHATSAPP_URL}
@@ -172,7 +171,7 @@ export default function ProblemSection() {
               {" "}
               <span className="flex-1 font-bold text-base md:text-center">
                 {" "}
-                AGENDAR MINHA SESSÃO{" "}
+                AGENDAR ATENDIMENTO{" "}
               </span>{" "}
               <div className="md:w-10 md:h-10 h-8 w-8 bg-white rounded-full flex items-center justify-center text-primary group-hover:rotate-45 transition-transform duration-300">
                 {" "}

@@ -20,7 +20,8 @@ export default function Navbar() {
 
   const navLinks = [
     { href: "/", label: "Início" },
-    { href: "#analise", label: "A análise" },
+    { href: "#cuidado", label: "Para quem" },
+    { href: "#especialidades", label: "Especialidades" },
     { href: "#sobre", label: "Sobre" },
     { href: "#faq", label: "Dúvidas" },
   ];
@@ -36,7 +37,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6 md:px-20 lg:px-32 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
           <span className="text-2xl font-serif font-bold text-primary tracking-tight">
-            Valter Lima <span className="text-text-main">Psicanalista</span>
+            Clínica <span className="text-text-main">Harmonize</span>
           </span>
         </Link>
 
@@ -57,7 +58,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="bg-primary text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-primary/90 transition-all shadow-md hover:shadow-lg active:scale-95"
           >
-            Agendar Sessão
+            Agendar Atendimento
           </a>
         </div>
 
@@ -99,7 +100,7 @@ export default function Navbar() {
                 className="bg-primary text-white px-6 py-4 rounded-xl text-center font-bold shadow-lg active:scale-[0.98] transition-all"
                 onClick={() => setIsOpen(false)}
               >
-                Agendar Sessão
+                Agendar Atendimento
               </a>
             </div>
           </motion.div>

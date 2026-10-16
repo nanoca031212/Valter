@@ -2,56 +2,56 @@
 
 import { motion } from "framer-motion";
 import {
-  Monitor,
+  Brain,
   Ear,
-  Lock,
-  CalendarClock,
-  Compass,
-  HeartHandshake,
+  Smile,
+  Users,
+  ClipboardList,
+  Apple,
 } from "lucide-react";
 
 const benefits = [
   {
-    icon: Monitor,
-    title: "Atendimento on-line",
+    icon: Brain,
+    title: "Psicologia",
     description:
-      "Sessões individuais por vídeo, de onde você estiver, sem deslocamento.",
+      "Terapia individual para homens e mulheres, com escuta qualificada e cuidado com a sua saúde emocional.",
   },
   {
     icon: Ear,
-    title: "Escuta atenta",
+    title: "Psicanálise",
     description:
-      "Um espaço para falar livremente, sem julgamentos e sem respostas prontas.",
+      "Um espaço para falar livremente e compreender as causas mais profundas do sofrimento.",
   },
   {
-    icon: Lock,
-    title: "Sigilo e ética",
+    icon: Smile,
+    title: "Crianças e adolescentes",
     description:
-      "Tudo o que é dito em sessão permanece entre você e o analista.",
+      "Atendimento cuidadoso e adequado a cada fase do desenvolvimento, com apoio à família.",
   },
   {
-    icon: CalendarClock,
-    title: "Regularidade",
+    icon: Users,
+    title: "Famílias",
     description:
-      "Sessões semanais em horário fixo, construindo um compromisso com você mesmo.",
+      "Acolhimento e orientação para famílias que desejam compreender e atravessar juntas seus desafios.",
   },
   {
-    icon: Compass,
-    title: "Autoconhecimento",
+    icon: ClipboardList,
+    title: "Avaliações",
     description:
-      "Compreender suas emoções, seus limites e as escolhas que fazemos sem perceber.",
+      "Avaliações para compreender demandas específicas e orientar o cuidado mais adequado para cada pessoa.",
   },
   {
-    icon: HeartHandshake,
-    title: "Acolhimento",
+    icon: Apple,
+    title: "Nutrição",
     description:
-      "Um vínculo de confiança que respeita o seu tempo e a sua história.",
+      "Acompanhamento nutricional que respeita a sua rotina, a sua história e as necessidades do seu corpo.",
   },
 ];
 
 export default function Benefits() {
   return (
-    <section className="py-24 bg-white">
+    <section id="especialidades" className="py-24 bg-white scroll-mt-20">
       <div className="container mx-auto px-6 md:px-20 lg:px-32">
         {/* Top Decoration */}
         <div className="flex justify-center gap-2 text-primary/40 mb-12">
@@ -62,12 +62,12 @@ export default function Benefits() {
 
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-text-main mb-8 leading-tight">
-            A análise não oferece{" "}
-            <span className="text-primary italic">fórmulas prontas</span>.
+            Um cuidado completo para{" "}
+            <span className="text-primary italic">cada fase da vida</span>.
           </h2>
           <p className="text-text-muted text-lg max-w-2xl mx-auto">
-            Ela abre espaço para que você se escute, dê sentido ao que sente e
-            construa, no seu tempo, uma forma mais livre e autêntica de viver.
+            Unimos Psicologia, Psicanálise e Nutrição para cuidar de cada pessoa
+            em sua totalidade. Conheça nossos atendimentos:
           </p>
         </div>
 
@@ -101,8 +101,8 @@ export default function Benefits() {
 
         <div className="mt-20 text-center max-w-2xl mx-auto space-y-12">
           <p className="text-xl font-bold text-text-main">
-            Falar sobre o que dói já é o começo da mudança. Você não precisa
-            atravessar isso sozinho.
+            Porque cuidar de você é olhar para além dos sintomas, considerando
+            corpo, mente e emoções em sua totalidade.
           </p>
         </div>
       </div>

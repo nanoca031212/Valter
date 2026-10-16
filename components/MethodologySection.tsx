@@ -10,22 +10,22 @@ const steps = [
   {
     title: "Primeiro contato",
     description:
-      "Você envia uma mensagem pelo WhatsApp e combinamos o melhor horário para a primeira sessão.",
+      "Você envia uma mensagem pelo WhatsApp e nos conta o que está buscando.",
   },
   {
-    title: "Entrevistas iniciais",
+    title: "Acolhimento inicial",
     description:
-      "Os primeiros encontros servem para nos conhecermos e você trazer o que te motivou a buscar a análise.",
+      "Entendemos a sua demanda e indicamos o profissional e o atendimento mais adequados.",
   },
   {
-    title: "Sessões regulares",
+    title: "Atendimentos regulares",
     description:
-      "Encontros on-line, em dia e horário fixos, onde você fala livremente e o analista escuta.",
+      "Sessões e consultas em dia e horário combinados, com escuta e cuidado em cada encontro.",
   },
   {
-    title: "O seu tempo",
+    title: "Cuidado integrado",
     description:
-      "A análise acontece no seu ritmo. Cada processo é único, assim como cada história.",
+      "Psicologia e Nutrição caminham juntas quando necessário, olhando para você em sua totalidade.",
   },
 ];
 
@@ -46,9 +46,8 @@ export default function MethodologySection() {
             <span className="text-primary italic">o atendimento.</span>
           </h2>
           <p className="text-text-muted text-lg max-w-3xl mx-auto mb-8">
-            Todo o atendimento é on-line, por videochamada, em um ambiente
-            reservado e seguro. Você só precisa de um lugar tranquilo e de
-            disposição para falar de si.
+            Do primeiro contato ao acompanhamento, cada etapa é pensada para
+            acolher você e indicar o cuidado mais adequado.
           </p>
           <p className="font-bold text-text-main">
             O percurso acontece assim:
@@ -93,7 +92,7 @@ export default function MethodologySection() {
               {/* Placeholder for the reading image */}
               <Image
                 src="/hero-nutri.png"
-                alt="Atendimento psicanalítico"
+                alt="Atendimento na Clínica Harmonize"
                 fill
                 className="object-cover"
               />
@@ -114,7 +113,7 @@ export default function MethodologySection() {
                 {" "}
                 <span className="flex-1 font-bold text-base md:text-center">
                   {" "}
-                  AGENDAR MINHA SESSÃO{" "}
+                  AGENDAR ATENDIMENTO{" "}
                 </span>{" "}
                 <div className="md:w-10 md:h-10 h-8 w-8 bg-white rounded-full flex items-center justify-center text-primary group-hover:rotate-45 transition-transform duration-300">
                   {" "}

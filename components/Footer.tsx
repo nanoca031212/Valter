@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col items-center text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-serif font-bold mb-8">
             Dê o primeiro passo{" "}
-            <span className="text-primary italic">para se escutar.</span>
+            <span className="text-primary italic">para cuidar de você.</span>
           </h2>
           <a
             href={WHATSAPP_URL}
@@ -18,18 +18,18 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="bg-white text-dark-accent px-10 py-5 rounded-full text-xl font-bold hover:bg-primary hover:text-white transition-all shadow-2xl active:scale-95"
           >
-            Agendar minha sessão
+            Agendar atendimento
           </a>
         </div>
 
         <div className="grid md:grid-cols-4 gap-12 pt-16 border-t border-white/10">
           <div className="col-span-1 md:col-span-2">
             <span className="text-2xl font-serif font-bold tracking-tight mb-6 block">
-              Valter Lima <span className="text-primary">Psicanalista</span>
+              Clínica <span className="text-primary">Harmonize</span>
             </span>
             <p className="text-white/60 max-w-sm leading-relaxed">
-              Atendimento psicanalítico on-line. Acolhimento e um espaço para
-              se escutar.
+              Psicologia, Psicanálise e Nutrição. Cuidando de você em sua
+              totalidade.
             </p>
           </div>
 
@@ -46,10 +46,10 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#analise"
+                  href="#especialidades"
                   className="hover:text-primary transition-colors"
                 >
-                  A análise
+                  Especialidades
                 </Link>
               </li>
               <li>
@@ -73,17 +73,16 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
                 >
-                  (19) 98361-7020
+                  (65) 9958-1794
                 </a>
               </li>
-              <li>Atendimento on-line</li>
             </ul>
           </div>
         </div>
 
         <div className="mt-20 pt-8 border-t border-white/5 text-center text-sm text-white/30">
           <p>
-            © {new Date().getFullYear()} Valter Lima Psicanalista. Todos os direitos reservados.
+            © {new Date().getFullYear()} Clínica Harmonize. Todos os direitos reservados.
             Desenvolvido com ❤️
           </p>
         </div>

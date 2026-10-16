@@ -6,24 +6,24 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    q: "Como funciona a análise on-line?",
-    a: "As sessões acontecem por videochamada, em dia e horário combinados. Você só precisa de um lugar reservado, onde se sinta à vontade para falar, e de uma conexão estável."
+    q: "Quais atendimentos a clínica oferece?",
+    a: "Oferecemos atendimentos de Psicologia, Psicanálise e Nutrição, além de avaliações, para crianças, adolescentes, adultos e famílias."
   },
   {
-    q: "Qual a diferença entre psicanálise e outras terapias?",
-    a: "A psicanálise não trabalha com conselhos ou técnicas prontas. Ela parte da sua fala para investigar as causas inconscientes do sofrimento, e não apenas os sintomas."
+    q: "Vocês atendem crianças e adolescentes?",
+    a: "Sim. O atendimento é adaptado a cada fase do desenvolvimento e conta com a participação da família sempre que necessário."
   },
   {
-    q: "Quanto tempo dura o processo?",
-    a: "Não há um prazo definido. Cada análise tem o seu ritmo, que é construído ao longo dos encontros, respeitando a sua história e o seu tempo."
+    q: "Por que unir Psicologia e Nutrição?",
+    a: "Porque corpo, mente e emoções estão ligados. Olhar para a pessoa em sua totalidade permite compreender melhor as dificuldades e construir um cuidado mais completo."
   },
   {
-    q: "O que eu falo nas sessões fica em sigilo?",
-    a: "Sim. O sigilo é um princípio ético fundamental da psicanálise. Tudo o que é dito em sessão permanece entre você e o analista."
+    q: "O atendimento é sigiloso?",
+    a: "Sim. O sigilo é um princípio ético de todos os nossos profissionais. O que é compartilhado nos atendimentos permanece entre você e o profissional."
   },
   {
-    q: "Como faço para agendar a primeira sessão?",
-    a: "Basta enviar uma mensagem pelo WhatsApp. Conversamos brevemente e combinamos o melhor horário para o seu primeiro atendimento."
+    q: "Como faço para agendar?",
+    a: "Basta enviar uma mensagem pelo WhatsApp. Vamos entender a sua necessidade, indicar o atendimento mais adequado e combinar o melhor horário."
   }
 ];
 

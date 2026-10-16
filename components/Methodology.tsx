@@ -34,21 +34,21 @@ export default function Methodology() {
             className="flex-1"
           >
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-text-main mb-8 leading-tight">
-              O sofrimento não precisa ser <span className="text-primary italic">vivido em silêncio</span>.
+              Corpo, mente e emoções <span className="text-primary italic">em equilíbrio</span>.
             </h2>
             <div className="space-y-8">
               {[
                 {
-                  title: "Falar",
-                  text: "Na análise, você é convidado a dizer o que vier à mente, sem filtros. É pela fala que o inconsciente se revela."
+                  title: "Acolher",
+                  text: "Um espaço de escuta, sem julgamentos, para que você possa falar sobre a sua história e as suas dificuldades."
                 },
                 {
-                  title: "Escutar-se",
-                  text: "Ao ouvir a própria história, você começa a perceber padrões, desejos e conflitos que antes passavam despercebidos."
+                  title: "Compreender",
+                  text: "Olhamos para além dos sintomas, buscando entender o que está por trás do que você sente e vive."
                 },
                 {
-                  title: "Elaborar",
-                  text: "Com o tempo, aquilo que se repetia ganha sentido, abrindo espaço para escolhas mais livres e conscientes."
+                  title: "Construir caminhos",
+                  text: "Juntos, construímos caminhos para uma vida mais saudável e equilibrada, respeitando o seu tempo."
                 }
               ].map((item, index) => (
                 <div key={index} className="flex gap-6">

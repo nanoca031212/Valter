@@ -13,8 +13,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Valter Lima | Psicanalista",
-  description: "Atendimento psicanalítico on-line. Acolhimento e um espaço para se escutar.",
+  title: "Clínica Harmonize | Psicologia, Psicanálise e Nutrição",
+  description: "Psicologia, Psicanálise e Nutrição para crianças, adolescentes, adultos e famílias. Cuidando de você em sua totalidade.",
 };
 
 export default function RootLayout({

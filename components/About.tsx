@@ -16,8 +16,8 @@ export default function About() {
           >
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl skew-y-2 hover:skew-y-0 transition-transform duration-700">
               <Image
-                src="/ele.png"
-                alt="Valter Lima, psicanalista"
+                src="/ela.png"
+                alt="Profissional da Clínica Harmonize"
                 width={500}
                 height={600}
                 className="w-full h-auto object-cover  transition-all duration-700"
@@ -34,36 +34,36 @@ export default function About() {
             className="flex-1"
           >
             <span className="text-primary font-bold tracking-widest uppercase text-sm mb-4 block">
-              Seu Psicanalista
+              Sobre a clínica
             </span>
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-text-main mb-8 leading-tight">
-              Olá, eu sou o{" "}
-              <span className="text-primary italic">Valter Lima</span>.
+              Bem-vindo à{" "}
+              <span className="text-primary italic">Clínica Harmonize</span>.
             </h2>
             <div className="space-y-6 text-text-muted text-lg leading-relaxed">
               <p>
-                Sou psicanalista e ofereço atendimento on-line para pessoas que
-                buscam análise pessoal: um espaço de acolhimento, onde é
-                possível se escutar de verdade.
+                Acreditamos que cuidar de si é olhar para além dos sintomas,
+                acolher a própria história, compreender as emoções e reconhecer
+                as necessidades do corpo e da mente.
               </p>
               <p>
-                Acredito que cada pessoa carrega uma história única, e que é
-                pela palavra que podemos compreender aquilo que nos faz sofrer,
-                o que se repete e o que deseja ser dito.
+                Por isso, oferecemos um espaço de escuta, acolhimento e cuidado,
+                com profissionais de Psicologia e Nutrição, respeitando a
+                singularidade de cada pessoa.
               </p>
               <p className="font-medium text-text-main">
-                Você não precisa ter todas as respostas para começar. Basta
-                querer se ouvir.
+                Porque harmonizar não é viver sem conflitos, mas encontrar
+                equilíbrio entre o que sentimos, pensamos e vivemos.
               </p>
             </div>
 
             <div className="mt-12 grid grid-cols-2 gap-8">
               <div>
                 <p className="text-4xl font-serif font-bold text-primary mb-2">
-                  100%
+                  3
                 </p>
                 <p className="text-sm font-bold text-text-muted uppercase tracking-wider">
-                  On-line
+                  Áreas de cuidado
                 </p>
               </div>
               <div>

@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { ArrowUpRight } from "lucide-react";
+import { WHATSAPP_URL } from "@/lib/whatsapp";
 
 export default function About() {
   return (
@@ -16,10 +18,10 @@ export default function About() {
           >
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl skew-y-2 hover:skew-y-0 transition-transform duration-700">
               <Image
-                src="/ela.png"
-                alt="Profissional da Clínica Harmonize"
-                width={500}
-                height={600}
+                src="/izilandas.jpg"
+                alt="Izilanda Etiene de Souza, psicóloga"
+                width={1179}
+                height={1373}
                 className="w-full h-auto object-cover  transition-all duration-700"
               />
             </div>
@@ -34,47 +36,60 @@ export default function About() {
             className="flex-1"
           >
             <span className="text-primary font-bold tracking-widest uppercase text-sm mb-4 block">
-              Sobre a clínica
+              Psicóloga
             </span>
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-text-main mb-8 leading-tight">
-              Bem-vindo à{" "}
-              <span className="text-primary italic">Clínica Harmonize</span>.
+              Izilanda{" "}
+              <span className="text-primary italic">Etiene de Souza</span>.
             </h2>
             <div className="space-y-6 text-text-muted text-lg leading-relaxed">
               <p>
-                Acreditamos que cuidar de si é olhar para além dos sintomas,
-                acolher a própria história, compreender as emoções e reconhecer
-                as necessidades do corpo e da mente.
+                Psicóloga formada pela UNIC, com especializações em Terapia de
+                Casal e Família e em Neuropsicologia Clínica. Há 20 anos atendo
+                indivíduos, casais e famílias.
               </p>
               <p>
-                Por isso, oferecemos um espaço de escuta, acolhimento e cuidado,
-                com profissionais de Psicologia e Nutrição, respeitando a
-                singularidade de cada pessoa.
+                Minha prática é fundamentada nas abordagens psicanalítica e
+                sistêmica, com uma escuta acolhedora e atenta às emoções, aos
+                vínculos e à singularidade de cada pessoa.
               </p>
               <p className="font-medium text-text-main">
-                Porque harmonizar não é viver sem conflitos, mas encontrar
-                equilíbrio entre o que sentimos, pensamos e vivemos.
+                Mineira de nascimento e cuiabana de coração.
               </p>
             </div>
 
             <div className="mt-12 grid grid-cols-2 gap-8">
               <div>
                 <p className="text-4xl font-serif font-bold text-primary mb-2">
-                  3
+                  20
                 </p>
                 <p className="text-sm font-bold text-text-muted uppercase tracking-wider">
-                  Áreas de cuidado
+                  Anos de experiência
                 </p>
               </div>
               <div>
                 <p className="text-4xl font-serif font-bold text-primary mb-2">
-                  Sigilo
+                  UNIC
                 </p>
                 <p className="text-sm font-bold text-text-muted uppercase tracking-wider">
-                  Ética e confiança
+                  Graduação
                 </p>
               </div>
             </div>
+
+            <a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative mt-12 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#668865] via-primary to-[#1A2419] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
+            >
+              <span className="flex-1 font-bold text-base md:text-center">
+                AGENDAR COM A IZILANDA
+              </span>
+              <div className="md:w-10 md:h-10 h-8 w-8 bg-white rounded-full flex items-center justify-center text-primary group-hover:rotate-45 transition-transform duration-300">
+                <ArrowUpRight className="w-4 h-4" />
+              </div>
+            </a>
           </motion.div>
         </div>
       </div>

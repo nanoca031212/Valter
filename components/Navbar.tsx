@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -36,9 +37,14 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 md:px-20 lg:px-32 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
-          <span className="text-2xl font-serif font-bold text-primary tracking-tight">
-            Clínica <span className="text-text-main">Harmonize</span>
-          </span>
+          <Image
+            src="/logo.png"
+            alt="Clínica Harmonize"
+            width={1949}
+            height={807}
+            className="h-10 md:h-12 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop Navigation */}

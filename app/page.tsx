@@ -7,6 +7,10 @@ import Benefits from "@/components/Benefits";
 // import Methodology from "@/components/Methodology";
 // import MethodologySection from "@/components/MethodologySection";
 import About from "@/components/About";
+import Andressa from "@/components/Andressa";
+import Ana from "@/components/Ana";
+import Amanda from "@/components/Amanda";
+import Marcia from "@/components/Marcia";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -24,6 +28,10 @@ export default function Home() {
         {/* <Methodology /> */}
 
         <About />
+        <Andressa />
+        <Ana />
+        <Amanda />
+        <Marcia />
         <FAQ />
       </main>
       <Footer />

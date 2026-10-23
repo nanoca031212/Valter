@@ -6,9 +6,9 @@
 }
 
 @theme inline {
-  --color-primary: #345C33;
-  --color-background-soft: #F7F8F3;
-  --color-dark-accent: #1A2419;
+  --color-primary: #007FA3;
+  --color-background-soft: #F3F8FA;
+  --color-dark-accent: #062B38;
   --color-text-main: #1A1A1A;
   --color-text-muted: #4A4A4A;
   

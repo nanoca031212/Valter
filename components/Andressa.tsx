@@ -59,7 +59,7 @@ export default function Andressa() {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative mt-12 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#668865] via-primary to-[#1A2419] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
+              className="group relative mt-12 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#3FA3C2] via-primary to-[#003B4D] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
             >
               <span className="flex-1 font-bold text-base md:text-center">
                 AGENDAR COM A ANDRESSA

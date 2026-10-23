@@ -4,9 +4,11 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import CircularText from "./CircularText";
 import Marquee from "./Marquee";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, MessageCircle } from "lucide-react";
 import CtaButton from "./CtaButton";
 import { WHATSAPP_URL } from "@/lib/whatsapp";
+
+const BOOKING_URL = "https://www.medicosbrasil.com/profissional/izilanda-etiene";
 
 export default function Hero() {
   return (
@@ -32,27 +34,39 @@ export default function Hero() {
             Psicologia e Nutrição, respeitando a singularidade de cada pessoa.
           </p>
 
-          <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group relative mt-6 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#668865] via-primary to-[#1A2419] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
-          >
-            {" "}
-            <span className="flex-1 font-bold text-base md:text-center">
-              {" "}
-              AGENDAR ATENDIMENTO{" "}
-            </span>{" "}
-            <div className="md:w-10 md:h-10 h-8 w-8 bg-white rounded-full flex items-center justify-center text-primary group-hover:rotate-45 transition-transform duration-300">
-              {" "}
-              <ArrowUpRight className="w-4 h-4" />{" "}
-            </div>{" "}
-          </a>
+          <div className="mt-6 flex flex-col sm:flex-row md:flex-col xl:flex-row gap-3 w-full max-w-xl">
+            <a
+              href={BOOKING_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative flex-1 px-4 py-3 flex items-center justify-between gap-3 bg-gradient-to-r from-[#3FA3C2] via-primary to-[#003B4D] rounded-full text-white font-bold text-xs md:text-sm tracking-wider uppercase shadow-xl hover:shadow-2xl transition-all"
+            >
+              <span className="flex-1 text-center">Agendar on-line</span>
+              <div className="h-8 w-8 md:w-10 md:h-10 flex-shrink-0 bg-white rounded-full flex items-center justify-center text-primary group-hover:rotate-45 transition-transform duration-300">
+                <ArrowUpRight className="w-4 h-4" />
+              </div>
+            </a>
+            <a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative flex-1 px-4 py-3 flex items-center justify-between gap-3 bg-white border-2 border-primary rounded-full text-primary font-bold text-xs md:text-sm tracking-wider uppercase shadow-md hover:bg-primary hover:text-white transition-all"
+            >
+              <span className="flex-1 text-center">Falar com atendente</span>
+              <div className="h-8 w-8 md:w-10 md:h-10 flex-shrink-0 bg-primary/10 group-hover:bg-white rounded-full flex items-center justify-center text-primary transition-colors duration-300">
+                <MessageCircle className="w-4 h-4" />
+              </div>
+            </a>
+          </div>
 
-          <div className="mt-8 flex items-center gap-4">
+          <div className="mt-8 flex flex-col gap-2">
             <p className="text-sm text-text-muted font-medium">
               <span className="font-bold text-text-main">Para todas as idades</span>{" "}
               — crianças, adolescentes, adultos e famílias
+            </p>
+            <p className="text-sm text-text-muted font-medium">
+              <span className="font-bold text-text-main">Aceitamos planos de saúde</span>{" "}
+              — consulte o seu pelo WhatsApp
             </p>
           </div>
         </motion.div>
@@ -86,9 +100,13 @@ export default function Hero() {
               fontSize="12px"
               className="drop-shadow-lg"
             />
-            <div className="absolute w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white shadow-lg overflow-hidden">
-              <span className="text-xl font-serif font-bold italic">CH</span>
-            </div>
+            <Image
+              src="/logoti.png"
+              alt="Clínica Harmonize"
+              width={1241}
+              height={1267}
+              className="absolute w-14 h-14 object-contain drop-shadow-lg"
+            />
           </motion.div>
 
           {/* Floating badge */}

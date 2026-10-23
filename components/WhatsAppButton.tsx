@@ -13,7 +13,7 @@ export default function WhatsAppButton() {
       animate={{ scale: 1, opacity: 1 }}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-      className="fixed bottom-8 right-8 z-[100] bg-[#25D366] text-white p-4 rounded-full shadow-[0_10px_40px_rgba(52,92,51,0.4)] hover:shadow-[0_15px_50px_rgba(52,92,51,0.6)] transition-all flex items-center justify-center"
+      className="fixed bottom-8 right-8 z-[100] bg-[#25D366] text-white p-4 rounded-full shadow-[0_10px_40px_rgba(0,127,163,0.4)] hover:shadow-[0_15px_50px_rgba(0,127,163,0.6)] transition-all flex items-center justify-center"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

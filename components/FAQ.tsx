@@ -22,6 +22,10 @@ const faqs = [
     a: "Sim. O sigilo é um princípio ético de todos os nossos profissionais. O que é compartilhado nos atendimentos permanece entre você e o profissional."
   },
   {
+    q: "Vocês atendem por plano de saúde?",
+    a: "Sim, a clínica aceita planos de saúde. Envie uma mensagem pelo WhatsApp informando o seu plano para confirmarmos a cobertura do atendimento."
+  },
+  {
     q: "Como faço para agendar?",
     a: "Basta enviar uma mensagem pelo WhatsApp. Vamos entender a sua necessidade, indicar o atendimento mais adequado e combinar o melhor horário."
   }

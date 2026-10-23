@@ -31,7 +31,7 @@ const steps = [
 
 export default function MethodologySection() {
   return (
-    <section id="como-funciona" className="py-24 bg-[#F7F8F3]">
+    <section id="como-funciona" className="py-24 bg-[#F3F8FA]">
       <div className="container mx-auto px-6 md:px-20 lg:px-32">
         {/* Top Decoration */}
         <div className="flex justify-center gap-2 text-primary/40 mb-12">
@@ -108,7 +108,7 @@ export default function MethodologySection() {
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative px-5 w-full max-w-md gap-2 md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#668865] via-primary to-[#1A2419] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
+                className="group relative px-5 w-full max-w-md gap-2 md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#3FA3C2] via-primary to-[#003B4D] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
               >
                 {" "}
                 <span className="flex-1 font-bold text-base md:text-center">
